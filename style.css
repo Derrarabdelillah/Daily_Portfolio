@@ -19,7 +19,10 @@
 body {
     font-family: "Winky Sans", sans-serif;
     scroll-behavior: smooth;
+    background-color: #7777770e;
 }
+
+
 
 .nav-link {
     color: var(--title-color);
@@ -89,3 +92,67 @@ body {
 .about-title {
     letter-spacing: 6px;
 }
+
+.techs {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.techs img {
+    padding: 10px;
+}
+
+.techs:hover {
+    scale: 0.9;
+    cursor: pointer;
+    background-color: #77777728;
+}
+
+.desc-title {
+    font-size: 80px;
+    color: var(--purple-color);
+}
+
+.fa-phone {
+    font-size: 2.5rem;
+}
+
+.call-title {
+    color: var(--blue-color);
+}
+
+.main-title p {
+    color: var(--text-color);
+}
+
+.card {
+    background-color: white;   
+    cursor: pointer;
+}
+
+.card:hover {
+    scale: 0.9;
+}
+
+.card-text {
+    color: var(--text-color);
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+.card-img {
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.card-img:hover {
+    scale: 0.9;
+}
+
+.card-img p {
+    color: var(--text-color);
+}
+
