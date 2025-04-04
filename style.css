@@ -223,3 +223,7 @@ body {
     right: 20px;
     transition: all 0.3s;
 }
+
+.buttons a {
+    text-decoration: none;
+}
