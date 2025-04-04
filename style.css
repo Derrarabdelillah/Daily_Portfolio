@@ -69,7 +69,7 @@ body {
 }
 
 .second-btn {
-    background-color: transparent;
+    background-color: white;
     border: 1px solid var(--purple-color);
     padding: 10px 30px;
     text-transform: uppercase;
@@ -156,3 +156,70 @@ body {
     color: var(--text-color);
 }
 
+.subscribe {
+    background: linear-gradient(90deg, rgba(68,88,220,1) 0%, rgba(133,79,238,1) 35%);
+}
+
+.subscribe p {
+    color: var(--text-color);
+}
+
+.form {
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.form:focus {
+    outline: none;
+}
+
+.form::placeholder {
+    color: white;
+}
+
+.founder {
+    color: var(--purple-color);
+}
+
+.icons .fa-brands {
+    padding: 10px;
+    color: white;
+    background: var(--gradient-color);
+    transition: all 0.3s;
+
+}
+
+.icons .fa-brands:hover {
+    background: var(--title-color);
+    scale: 1.1;
+}
+
+.link {
+    color: #141313b7;
+}
+
+/* Scroll To Top Button */
+.top {
+    z-index: 100000;
+    position: fixed;
+    bottom: -50px;
+    right: -50px;
+    background: var(--gradient-color);
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.top:hover {
+    scale: 0.9;
+}
+
+.active {
+    bottom: 20px;
+    right: 20px;
+    transition: all 0.3s;
+}
