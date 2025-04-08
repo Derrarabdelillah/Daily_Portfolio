@@ -23,6 +23,21 @@ body {
 }
 
 
+/* Scroller */
+.scroller {
+    position: fixed;
+    width: 100px;
+    height: 5px;
+    background-color: var(--purple-color);
+    z-index: 22;
+    left: 0;
+    top: 0;
+}
+
+
+.navigation-phone {
+    width: 80%;
+}
 
 .nav-link {
     color: var(--title-color);
@@ -202,7 +217,7 @@ body {
 
 /* Scroll To Top Button */
 .top {
-    z-index: 100000;
+    z-index: 1;
     position: fixed;
     bottom: -50px;
     right: -50px;
